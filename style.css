@@ -1,0 +1,219 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+main{
+    width: 1300px;
+    margin: auto;
+}
+
+/* main css */
+.clients{
+    padding: 100px 0;
+}
+.clients-title{}
+.clients-title span{
+    color: blue;
+}
+.clients-title h2 {
+    font-weight: 700;
+    padding: 15px 0;
+    position: relative;
+    margin-bottom: 16px;
+}
+.clients-title h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: blue;
+    width: 14%;
+    height: 1px;
+}
+.clients-title p{}
+
+/* clients-item */
+.clients-item {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    line-height: 100px;
+}
+
+.clients-item::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.562);
+    transition: .5s;
+}
+.clients-item:hover:after{
+    background-color: transparent;
+}
+.col-lg-4.item {
+    border: .5px solid #e4e2e2;
+    padding: 0;
+    transition: .5s;
+    margin: -.5px;
+    padding: 14px 0;
+}
+.col-lg-4.item:hover{
+    background-color: #ebf5fc;
+}
+
+/* news & blog start */
+.blog-title{}
+.blog-title span{
+    color: blue;
+}
+.blog-title h2 {
+    font-weight: 700;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    position: relative;
+}
+.blog-title h2::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 248px;
+    width: 9%;
+    height: 2px;
+    background-color: #3763eb;
+}
+.blog-title p {
+    padding: 0 13px;
+    color: #606060;
+}
+
+/* company-item */
+.company-item{}
+.company-img1 {
+    background-image: url(image/blog-grid1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 236px;
+    position: relative;
+}
+.company-img2 {
+    background-image: url(image/blog-grid2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 236px;
+    position: relative;
+}
+.company-img3 {
+    background-image: url(image/blog-grid3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 236px;
+    position: relative;
+}
+.profile {
+    background-color: #3763eb;
+    border-radius: 35px;
+    width: 50%;
+    padding: 5px;
+    padding-left: 11px;
+    position: absolute;
+    bottom: 15px;
+    right: 17px;
+}
+.profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.profile p{
+    margin: 0;
+    font-size: 14px;
+    padding: 9px 0 0px 9px;
+    color: #fff;
+}
+
+.item-ttitle{}
+.item-ttitle h3 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.item-ttitle p {
+    font-size: 14px;
+    color: #606060;
+}
+/* news & blog end */
+/* footer start */
+/* footer logo */
+.footer{
+    padding: 100px 0;
+    background-color: #000;
+    color: #fff;
+    border-bottom: .5px solid #606060;
+}
+.footer-logo {
+    margin-left: 17px;
+}
+.footer-logo img{
+    max-width: 80%;
+    
+}
+.footer-logo p {
+    padding: 20px 0;
+    line-height: 27px;
+}
+.footer-logo .social-list ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-logo .social-list ul li {
+    margin-left: 30px;
+}
+.footer-logo .social-list ul li a {
+    color: #fff;
+    font-size: 20px;
+    transition: .5s;
+}
+.footer-logo .social-list ul li a:hover{
+    color: #e83b3e;
+}
+/* footer links */
+.footer-links{
+
+}
+.link-title{}
+.link-title h4 {
+    border-left: 3px solid #0c34ff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 29px;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+.footer-links ul {
+    list-style: none;
+}
+.footer-links ul li {
+    padding-bottom: 10px;
+}
+.footer-links ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: .5s;
+}
+.footer-links ul li a:hover{
+    color: #e83b3e;
+    letter-spacing: 1px;
+}
+/* footer end */
+/* copyright */
+.copyright{
+    background-color: #000;
+    padding: 20px 0;
+    color: #fff;
+}
